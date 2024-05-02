@@ -48,10 +48,10 @@ export function DownloedDiv() {
           </motion.div>
           <div className="flex justify-center self-center">
             <a  rel="noopener" target="_blank" href="https://play.google.com/store/apps/details?id=com.ahd.jaib&pcampaignid=web_share">
-              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5 " src={"./svg/google.svg"}></img>
+              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5 " src={"./SVG/google.svg"}></img>
             </a>
             <a rel="noopener" target="_blank" href="https://apps.apple.com/us/app/jaib-digital-wallet/id6472856710">
-              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5" src={"./svg/apple.svg"}></img>
+              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5" src={"./SVG/apple.svg"}></img>
             </a>
           </div>
         </div>

@@ -17,7 +17,7 @@ export default function CollapseDefault() {
     {
       title: "التحويل إلى مشترك",
       value: "trancfrm",
-      src: "/svg/ic_transfers.svg",
+      src: "./SVG/ic_transfers.svg",
       srcimg: [
         {
           description:
@@ -55,7 +55,7 @@ export default function CollapseDefault() {
       value: "trancfrmHazmi",
       description:
         "تقدر ترسل وتصرف حوالتك (حزمي تحويل) عبر محفظة جيب بكل سهولة وفي أي وقت. وتستفسر عن الحوالة أو تلغيها.",
-      src: "/svg/ic_hazmi.svg",
+      src: "./SVG/ic_hazmi.svg",
       srcimg: [
         {
           description:
@@ -74,7 +74,7 @@ export default function CollapseDefault() {
     {
       title: "شحن و سداد",
       value: "shakanAndSadad",
-      src: "/svg/ic_services.svg",
+      src: "./SVG/ic_services.svg",
       srcimg: [
         {
           title: "سداد الفواتير",
@@ -140,7 +140,7 @@ export default function CollapseDefault() {
       value: "mashtrant",
       description:
         "يمكن لأي شخص مشترك في محفظة جيب يستبدل الدفع الكاش بالدفع الإلكتروني عبر محفظة جيب لكل مشترياته من المحلات التجارية والخدمية والمطاعم والكافيهات بسهولة وراحة، من خلال مسح QR Code أو إدخال رقم نقطة البيع.",
-      src: "/svg/ic_purchases.svg",
+      src: "./SVG/ic_purchases.svg",
       srcimg: [
         {
           description: "	اضغط على أيقونة 'دفع المشتريات' من القائمة الرئيسية.",
@@ -170,7 +170,7 @@ export default function CollapseDefault() {
     {
       title: "الإيداع و السحب النقدي",
       value: "cashin",
-      src: "/svg/ic_cash_out.svg",
+      src: "./SVG/ic_cash_out.svg",
       srcimg: [
         {
           description:"اضغط على أيقونة 'السحب النقدي' من القائمة الرئيسية.",
@@ -193,7 +193,7 @@ export default function CollapseDefault() {
     {
       title: "شراء أونلاين",
       value: "cashin",
-      src: "/svg/ic_onlie.svg",
+      src: "./SVG/ic_onlie.svg",
       srcimg: [
         {
           description:"اضغط على أيقونة 'شراء اونلاين' من القائمة الرئيسية.",

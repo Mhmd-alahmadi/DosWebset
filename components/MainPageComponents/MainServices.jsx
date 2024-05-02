@@ -4,8 +4,7 @@ import React, { useState, useContext } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { WindowSizeContext } from "../../contexts/WindowSizeContext";
 import { OurServis } from "../../constants";
-import { IoCloseSharp } from "react-icons/io5";
-import Testlottiefiles from "../LottieComponents/MouseLottie";
+import { IoCloseSharp } from "react-icons/io5";;
 const variants = {
   initial: {
     clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
