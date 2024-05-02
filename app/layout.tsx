@@ -4,7 +4,7 @@ import {useState , useEffect} from "react"
 import { ThemeProvider } from "@material-tailwind/react";
 import {NavbarWithMegaMenu} from "../components/LayoutComponents/NavBarCustams";
 import {FooterWithSocialLinks} from "../components/LayoutComponents/FooterWithSocialLinks";
-import LodingLottie from "../components/LottieComponents/LodingLottie";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Template from "./template";
 
 export { ThemeProvider };
@@ -29,6 +29,7 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
   }, []);
   return (
     <html lang="en">
+      <SpeedInsights/>
       <body className={`${myFont.variable} bg-jabiBg`  } >
 
       {isLoading &&
@@ -36,7 +37,7 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
 <div className='item'>
 <Image
  id='breathing-button'
-src="./svg/logo.svg"
+src="./SVG/logo.svg"
 alt="Landscape picture"
 fill
 />
