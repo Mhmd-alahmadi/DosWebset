@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import React from "react";
-import Smart2 from "@/public/Lottie/About.json";
+import Smart2 from "@/public/Lottie/AboutUsLottie.json";
 const About = () => {
     return (
       <>
