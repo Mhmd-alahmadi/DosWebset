@@ -3,7 +3,6 @@ import WorldLottie from '../components/LottieComponents/WorldLottie'
 import LockLottie from '../components/LottieComponents/LockLottie'
 import ClickLottie from '../components/LottieComponents/ClickLottie'
 import { ReadMoreWeb } from 'react-shorten';
-import style from "../components/PersonalPageComponents/OurservicesDiv.module.css";
 
 
 

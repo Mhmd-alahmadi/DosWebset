@@ -8,7 +8,6 @@ import { motion } from "framer-motion";
 import { Tabs, Tab } from "react-tabs-scrollable";
 import "react-tabs-scrollable/dist/rts.css";
 import "./Ourservices.css";
-import { title } from "process";
 
 // Demo styles, see 'Styles' section below for some notes on use.
 

@@ -1,13 +1,7 @@
 "use client";
 import Mobile3D from "./Mobile3D";
-
-import {
-  Typography,
-
-} from "@material-tailwind/react";
-
+import Image from 'next/image';
 import { motion } from "framer-motion";
-
 import {
   navVariantForBottomText,
   navVariantForTopText,
@@ -28,9 +22,9 @@ export function DownloedDiv() {
             initial="hidden"
             whileInView="show"
           >
-            <Typography className="lg:mt-10 mb-3  lg:text-6xl  text-5xl font-black text-jabi">
+            <h1 className="lg:mt-10 mb-3  lg:text-6xl  text-5xl font-black text-jabi">
               حمِّل تطبيق جيب
-            </Typography>
+            </h1>
           </motion.div>
           <motion.div
             className="self-center"
@@ -42,16 +36,16 @@ export function DownloedDiv() {
             whileInView="show"
           >
 
-            <Typography className="text-4xl lg:px-5 px-0 text-center  mx-0 ">
+            <p className="text-4xl lg:px-5 px-0 text-center  mx-0 ">
               تخلَّص من عناء الدفع النقدي، وسهِّل تعاملاتك المالية المختلفة بأمان كامل.
-            </Typography>
+            </p>
           </motion.div>
           <div className="flex justify-center self-center">
             <a  rel="noopener" target="_blank" href="https://play.google.com/store/apps/details?id=com.ahd.jaib&pcampaignid=web_share">
-              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5 " src={"./SVG/google.svg"}></img>
+              <Image alt="" width={20} height={ 20} className="lg:w-[20vw]  w-[40vw] px-5 " src={"./SVG/google.svg"}></Image>
             </a>
             <a rel="noopener" target="_blank" href="https://apps.apple.com/us/app/jaib-digital-wallet/id6472856710">
-              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5" src={"./SVG/apple.svg"}></img>
+              <Image alt="" width={20} height={ 20} className="lg:w-[20vw]  w-[40vw] px-5" src={"./SVG/apple.svg"}></Image>
             </a>
           </div>
         </div>
