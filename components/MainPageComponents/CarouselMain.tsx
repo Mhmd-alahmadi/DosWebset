@@ -6,10 +6,8 @@ import {
   Card,
   CardBody,
   Typography,
-  Carousel,
-  IconButton,
 } from "@material-tailwind/react";
-
+export { Card, Typography,CardBody };
 import { motion, Variants } from "framer-motion";
 import MouseLottie from "../LottieComponents/MouseLottie";
 

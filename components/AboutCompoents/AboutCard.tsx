@@ -4,16 +4,9 @@ import {
   Card,
   CardBody,
   CardHeader,
-  Typography,
-  Button,
-  CardFooter
+}from "@material-tailwind/react";
 
-
-} from "@material-tailwind/react";
-import About from '../LottieComponents/AboutLottie'
 import Image from 'next/image'
-import { motion } from "framer-motion";
-
 
 
 export default function AboutCard() {
@@ -39,8 +32,6 @@ export default function AboutCard() {
             </p>
           </CardBody>
         </Card>
-       
-
         <Card className="m-5 w-full">
           <CardHeader color="blue-gray" className="relative h-56">
           <Image className='object-cover object-top	 '  fill alt='' src={"/aboutImg/massage.jpg"}></Image>
@@ -53,8 +44,6 @@ export default function AboutCard() {
             الاستمرار والالتزام بتقديم حلول مالية رقمية سهلة ومواكبة لاحتياجات العملاء ورغباتهم عبر شبكة جيب الواسعة، وبناء اقتصاد مالي يمني رقمي يُمكِّن كل مواطن من التمتع بخدمات الدفع الإلكتروني بسهولة ويسر.            </p>
           </CardBody>
         </Card>
-
-
         <Card className="m-5 w-full">
           <CardHeader color="blue-gray" className="relative h-56">
           <Image className='object-cover object-top	 '  fill alt='' src={"/aboutImg/values.jpg"}></Image>
@@ -68,7 +57,6 @@ export default function AboutCard() {
             </p>
           </CardBody>
         </Card>
-        
         </div>
       </div>
     </>

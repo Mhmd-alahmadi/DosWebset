@@ -4,6 +4,8 @@ import {
   CardBody
 
 } from "@material-tailwind/react";
+
+export { CardBody, Card };
 import { OurServisCard } from "../../constants";
 import Image from 'next/image'
 import { motion } from "framer-motion";
