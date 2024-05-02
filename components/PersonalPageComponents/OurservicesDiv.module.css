@@ -1,0 +1,12 @@
+.readmore {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.link {
+    color: rgb(26, 210, 243);
+}

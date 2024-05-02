@@ -1,0 +1,13 @@
+.mhmdfont{
+    font-family: jaibFont !important;
+  }
+.justifyendcus{
+    justify-content: flex-end;
+  }
+  .justifystartcus{
+    justify-content: flex-end;
+  }
+.direction{
+  direction: rtl;
+}
+  

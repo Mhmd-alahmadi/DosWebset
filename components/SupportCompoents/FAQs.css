@@ -1,0 +1,11 @@
+.question.active::after {
+  transform: rotate(-90deg);
+}
+
+
+.answer {
+ 
+  line-height: 1.5rem;
+}
+
+

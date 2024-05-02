@@ -1,0 +1,16 @@
+.Jaibfont{
+    font-family: myFirstFont !important;
+  }
+  .jaibFontBold{
+    font-family: jaibFontBold !important;
+  }
+.justifyendcus{
+    justify-content: flex-end;
+  }
+  .justifystartcus{
+    justify-content: flex-end;
+  }
+.direction{
+  direction: rtl;
+}
+  

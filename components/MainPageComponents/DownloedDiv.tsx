@@ -1,0 +1,65 @@
+"use client";
+import Mobile3D from "./Mobile3D";
+
+import {
+  Typography,
+
+} from "@material-tailwind/react";
+
+import { motion } from "framer-motion";
+
+import {
+  navVariantForBottomText,
+  navVariantForTopText,
+} from "../../utils/motion";
+
+export function DownloedDiv() {
+  return (
+    <>
+      <div className="container mx-auto w-full ">
+      <div className='grid lg:grid-cols-2 md:grid-cols-1' >
+        <div className="grid lg:mt-0 self-center mt-24 justify-items-center h-[50%]  lg:m-0  items-end lg:px-5 px-10   lg:grid-rows-3">
+          <motion.div
+            style={{
+              direction: "rtl",
+            }}
+            variants={navVariantForTopText}
+            className="self-center"
+            initial="hidden"
+            whileInView="show"
+          >
+            <Typography className="lg:mt-10 mb-3  lg:text-6xl  text-5xl font-black text-jabi">
+              حمِّل تطبيق جيب
+            </Typography>
+          </motion.div>
+          <motion.div
+            className="self-center"
+            style={{
+              direction: "rtl",
+            }}
+            variants={navVariantForBottomText}
+            initial="hidden"
+            whileInView="show"
+          >
+
+            <Typography className="text-4xl lg:px-5 px-0 text-center  mx-0 ">
+              تخلَّص من عناء الدفع النقدي، وسهِّل تعاملاتك المالية المختلفة بأمان كامل.
+            </Typography>
+          </motion.div>
+          <div className="flex justify-center self-center">
+            <a  rel="noopener" target="_blank" href="https://play.google.com/store/apps/details?id=com.ahd.jaib&pcampaignid=web_share">
+              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5 " src={"./svg/google.svg"}></img>
+            </a>
+            <a rel="noopener" target="_blank" href="https://apps.apple.com/us/app/jaib-digital-wallet/id6472856710">
+              <img alt="" className="lg:w-[20vw]  w-[40vw] px-5" src={"./svg/apple.svg"}></img>
+            </a>
+          </div>
+        </div>
+        <Mobile3D></Mobile3D>
+
+      </div>
+      </div>
+    </>
+  )
+
+}
