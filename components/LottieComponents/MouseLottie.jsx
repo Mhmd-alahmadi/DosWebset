@@ -1,7 +1,7 @@
 "use client";
 import Lottie from "lottie-react";
 import React from "react";
-import animationData from "./public/MouseLottie.json";
+import animationData from "@/public/MouseLottie.json";
 const MouseLottie = () => {
     return (
       <>
