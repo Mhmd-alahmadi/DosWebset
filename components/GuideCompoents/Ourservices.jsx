@@ -264,7 +264,7 @@ export default function CollapseDefault() {
                       className={`m-0 flex place-content-center relative text-center items-center self-center  p-2 lg:w-[50%] w-[100%]  `}
                     >
                       <img
-                        className="object-contain h-[70vh]"
+                        className="object-contain !h-[70vh]"
                         alt=""
                         src={dataItem.src}
                       ></img>
@@ -285,18 +285,18 @@ export default function CollapseDefault() {
         className="bg-black justify-center justify-items-center"
         activeTab={activeTab}
         onTabClick={onTabClick}
-        hideNavBtnsOnMobile={false}
+        hideNavBtnsOnMobile={true}
 
       >
         {data.map((dataItem, index) => (
-          <Tab className="bg-gray-400 shadow-lg  rounded-lg " key={index}>
-            <div className="flex justify-center items-center w-fit ">
+          <Tab id="app20" className="!bg-gray-400 !shadow-lg !px-8 !py-4 !rounded-lg" key={index}>
+            <div className="flex justify-between w-fit ">
                 <img
                   alt="ايقونة جيب"
-                  className=" w-24 object-contain h-10"
+                  className="  object-contain h-10"
                   src={dataItem.src}
                 ></img>
-              <h1 className="text-2xl   ">{dataItem.title}</h1>
+              <h1 className="text-2xl pl-5  ">{dataItem.title}</h1>
             </div>
           </Tab>
         ))}
