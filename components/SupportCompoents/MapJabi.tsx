@@ -39,14 +39,14 @@ export default function MapJabi() {
             const marker2 = new  google.maps.Marker({
 				map: map,
 				position: locationInMap,
-                icon: "/svg/ic_logoMap.svg",
+                icon: "/SVG/ic_logoMap.svg",
 			});
 
 			// add the marker in the map
 			const marker = new  google.maps.Marker({
 				map: map,
 				position: locationInMap2,
-                icon: "/svg/ic_logoMap.svg",
+                icon: "/SVG/ic_logoMap.svg",
 			});
 		};
 

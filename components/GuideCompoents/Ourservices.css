@@ -1,15 +1,13 @@
 .rts___tab___selected {
-    background-color: #fff;
-
-    border-width: 4px;
-    border-color: #e4122c   ;
+    background-color: #fff !important;
+    border-width: 4px  !important ;
+    border-color: #e4122c   !important ;
     
 }
 
 .rts___tabs___container{
     justify-content: center;
 }
-
 
 
 /* from animate.css */

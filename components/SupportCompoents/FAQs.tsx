@@ -38,7 +38,7 @@ export default function FAQs() {
 <div dir="rtl" className="container mx-auto">
       {data.map((dataItem, index) => (
  <div className="bg-white text-black  rounded-3xl shadow-lg my-5">
- <div className="question font-semibold	 items-center cursor-pointer	 relative flex px-14 py-7 text-2xl  after:content-['\002B'] after:bg-[url('/svg/ic_bottom.svg')] after:bg-no-repeat after:bg-center	 after:bg-contain	 after:transition after:delay-100 after:text-transparent after:text-5xl after:left-6 after:absolute ">
+ <div className="question font-semibold	 items-center cursor-pointer	 relative flex px-14 py-7 text-2xl  after:content-['\002B'] after:bg-[url('/SVG/ic_bottom.svg')] after:bg-no-repeat after:bg-center	 after:bg-contain	 after:transition after:delay-100 after:text-transparent after:text-5xl after:left-6 after:absolute ">
 <p>
 {dataItem.question}
 </p>

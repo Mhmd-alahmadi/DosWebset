@@ -279,19 +279,21 @@ export default function CollapseDefault() {
     );
   };
   return (
-    <div dir="rtl" className="container-fluid lg:mx-auto px-5">
+    <div  className="container-fluid lg:mx-auto px-5">
       <Tabs
+     
         className="bg-black justify-center justify-items-center"
         activeTab={activeTab}
         onTabClick={onTabClick}
         hideNavBtnsOnMobile={false}
+
       >
         {data.map((dataItem, index) => (
-          <Tab className=" rounded-lg bg-gray-400 shadow-lg " key={index}>
+          <Tab className="bg-gray-400 shadow-lg  rounded-lg " key={index}>
             <div className="flex justify-center items-center w-fit ">
                 <img
                   alt="ايقونة جيب"
-                  className="w-24 object-contain h-10"
+                  className=" w-24 object-contain h-10"
                   src={dataItem.src}
                 ></img>
               <h1 className="text-2xl   ">{dataItem.title}</h1>
