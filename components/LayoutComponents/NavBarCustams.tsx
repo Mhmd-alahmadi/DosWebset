@@ -139,7 +139,7 @@ function NavListMenu() {
   const renderItems = navListMenuItems1.map(
     ({ icon, title, description ,src ,hrefDiv }, key) => (
 
-<Link href={`Personal/#${hrefDiv}`} key={hrefDiv} passHref={true}>
+<Link href={`Personal#${hrefDiv}`} key={hrefDiv} passHref={true}>
         <MenuItem placeholder={""} className={`${style.mhmdfont}   flex items-center justify-end  gap-3 rounded-lg`}>
           <div className="flex items-center   rounded-lg  p-2 ">
          
