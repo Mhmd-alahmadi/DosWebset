@@ -23,7 +23,7 @@ const xx = items.hrefDiv as string;
           return (
 
             <>
-              <div id={`${xx}`}  className="container-fluid pt-24 h-screen 2xl:px-30 xl:px-20 lg:px-5  lg:mx-auto mx-4">
+              <div id={xx}  className="container-fluid pt-24 h-screen 2xl:px-30 xl:px-20 lg:px-5  lg:mx-auto mx-4">
               <Card shadow={false} className={`${items.bg}  py-10 lg:px-0 px-5  lg:rounded-[5rem] rounded-tl- h-auto   lg:mt-6 mt-0   w-full`}>
                   <CardBody className='grid p-0  lg:grid-cols-2 grid-cols-1'>
 

@@ -1,4 +1,4 @@
-
+'use client'
 import style from "./NavBarCustams.module.css";
 import Image from 'next/image';
 import Link from 'next/link'
@@ -138,8 +138,8 @@ function NavListMenu() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = navListMenuItems1.map(
     ({ icon, title, description ,src ,hrefDiv }, key) => (
-<Link href={`Personal/#${hrefDiv}`}>
 
+<Link href={`Personal/#${hrefDiv}`}>
         <MenuItem placeholder={""} className={`${style.mhmdfont}   flex items-center justify-end  gap-3 rounded-lg`}>
           <div className="flex items-center   rounded-lg  p-2 ">
          
