@@ -221,7 +221,7 @@ function NavListMenuTow() {
   const renderItems = navListMenuItems2.map(
     ({ icon, title, description  ,hrefDiv }, key) => (
      
-      <Link href={`Business/#${hrefDiv}`}>
+      <Link href={`Business#${hrefDiv}`}>
 
       <MenuItem placeholder={""} className={`${style.mhmdfont}   flex items-center justify-end  gap-3 rounded-lg`}>
         <div className="flex items-center   rounded-lg  p-2 ">
