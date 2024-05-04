@@ -281,22 +281,23 @@ export default function CollapseDefault() {
   return (
     <div  className="container-fluid lg:mx-auto px-5">
       <Tabs
-     
-        className="bg-black justify-center justify-items-center"
+         leftNavBtnClassName="!border-none"
+         rightNavBtnClassName="!border-none"
+        className=""
         activeTab={activeTab}
         onTabClick={onTabClick}
         hideNavBtnsOnMobile={true}
 
       >
         {data.map((dataItem, index) => (
-          <Tab id="app20" className="!bg-gray-400 !shadow-lg !px-8 !py-4 !rounded-lg" key={index}>
-            <div className="flex justify-between w-fit ">
+          <Tab  className="!bg-gray-400 !shadow-lg !p-0 !rounded-lg" key={index}>
+            <div className="flex justify-center w-fit !px-8 !py-4 ">
                 <img
                   alt="ايقونة جيب"
-                  className="  object-contain h-10"
+                  className="  object-contain w-12"
                   src={dataItem.src}
                 ></img>
-              <h1 className="text-2xl pl-5  ">{dataItem.title}</h1>
+              <h1 className="text-2xl pl-5 text-black  ">{dataItem.title}</h1>
             </div>
           </Tab>
         ))}
