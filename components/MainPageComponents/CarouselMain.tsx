@@ -7,8 +7,10 @@ import {
   CardBody,
   Typography,
 } from "@material-tailwind/react";
+
+import Image from 'next/image'
 export { Card, Typography,CardBody };
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 import MouseLottie from "../LottieComponents/MouseLottie";
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -72,8 +74,10 @@ import Link from "next/link";
                     initial="hidden"
                     whileInView="show"
                   >
-                    <img src={items.src} alt=""></img>
+             <Image src={items.src} width={100} height={100} alt="Picture of the author" />
+                    
                   </motion.div>
+
                   <div className="grid  justify-items-center md:m-2 lg:m-14  items-end   lg:grid-rows-2">
                     <motion.div
                       style={{
