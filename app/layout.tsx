@@ -29,6 +29,7 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
   }, []);
   return (
     <html lang="en">
+      <title>محفظة جيب الالكترونية/title>
       <SpeedInsights/>
       <body className={`${myFont.variable} bg-jabiBg`  } >
 
