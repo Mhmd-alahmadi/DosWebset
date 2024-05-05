@@ -74,7 +74,7 @@ import Link from "next/link";
                     initial="hidden"
                     whileInView="show"
                   >
-             <Image src={items.src} width={100} height={100} alt="Picture of the author" />
+             <Image src={items.src} width={100} loading="lazy" height={100} alt="Picture of the author" />
                     
                   </motion.div>
 
